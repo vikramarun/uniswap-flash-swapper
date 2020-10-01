@@ -9,8 +9,8 @@ contract UniswapFlashSwapper {
 
     // CONSTANTS
     IUniswapV2Factory constant uniswapV2Factory = IUniswapV2Factory(0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f); // same for all networks
-    address constant WETH = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2; // Mainnet address. For Rinkeby use: 0xc778417E063141139Fce010982780140Aa0cD5Ab
-    address constant DAI = 0x6B175474E89094C44Da98b954EedeAC495271d0F; // Mainnet address. For Rinkeby use: 0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735
+    address constant WETH = 0xd0A1E359811322d97991E03f863a0C30C2cF029C; // Kovan address. For Mainnet use: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+    address constant DAI = 0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD; // Kovan address. For Mainnet use: 0x6B175474E89094C44Da98b954EedeAC495271d0F
     address constant ETH = address(0);
 
     // ACCESS CONTROL
